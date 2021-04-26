@@ -183,3 +183,13 @@ input[type=text]:focus {
     left: 56%;
     font-weight: bolder;
 }
+
+#lake1:hover {
+    text-decoration: underline;
+    background-color: grey;
+}
+
+#mountain1:hover {
+    text-decoration: underline;
+    background-color: grey;
+}
