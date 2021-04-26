@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(235, 255, 253)
+}
+
+#face {
+    width: 5%;
+    height: 10%;
+    border-radius: 70px;
+}
+
+#heading {
+    padding-left: 20px;
+    cursor: default;
+}
+
+#filter {
+    cursor: pointer;
+}
+
+.searchbar {
+    padding-top: 20px;
+    color: black;
+}
+
+input[type=text] {
+    width: 130px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    /* background-image: url('img/search_icon.png'); */
+    /* background-position: 500px 50px;  */
+    /* background-repeat: no-repeat; */
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 25%;
+}
+
+#container1 {
+    display: flex;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 20px;
+    margin: auto auto;
+    /* width: 10%; */
+    font-size: 20px;
+    align-items: center;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: grey;
+    font-weight: 800;
+}
+
+.menulist {
+    text-align: center;
+}
+
+.navbar li a:hover, .navbar li a.active {
+    text-decoration: underline;
+    color: black;
+}
+
+#lake {
+    border-radius: 20px;
+    height: 400px;
+    /* padding-left: 25px; */
+    float: left;
+    cursor: default;
+}
+
+#mountain {
+    height: 400px;
+    /* padding-left: 25px; */
+    border-radius: 20px;
+    float: right;
+    cursor: default;
+}
+
+.images {
+    /* padding: 25px; */
+    width: 600px;
+    padding-left: 25px;
+}
+
+.lake {
+    position: absolute;
+    top: 500px;
+    left: 50px;
+    color: white;
+}
+
+#lake1 {
+    position: absolute;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    /* margin: 0px;*/
+    padding: 5px;
+    top: 560px;
+    left: 50px;
+    cursor: pointer;
+}
+
+.mountain {
+    position: absolute;
+    top: 500px;
+    left: 405px;
+    color: white;
+}
+
+#mountain1 {
+    position: absolute;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    /* margin: 0px;*/
+    padding: 5px;
+    top: 560px;
+    left: 405px;
+    cursor: pointer;
+}
+
+.endbody p {
+    display: inline-block;
+    /* padding-left: 170px; */
+    /* padding: 25px; */
+    font-size: large;
+}
+
+.row {
+    /* padding: 20px;
+    align-self: center; */
+    /* margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px; */
+}
+
+.column {
+    float: left;
+    width: 15%;
+    padding-left: 150px;
+}
+
+/* Clearfix (clear floats) */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#vector1 {
+    position: absolute;
+    left: 11%;
+    font-weight: bolder;
+}
+
+#vector2 {
+    position: absolute;
+    left: 25.5%;
+    font-weight: bolder;
+}
+
+#vector3 {
+    position: absolute;
+    left: 41%;
+    font-weight: bolder;
+}
+
+#vector4 {
+    position: absolute;
+    left: 56%;
+    font-weight: bolder;
+}
